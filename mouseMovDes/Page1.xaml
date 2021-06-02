@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Keyboard"
+             x:Class="mouseMovDes.Page1">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="logo_drag">
+            
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#202841">
+            <Grid>
+                <Image  Source="navbar" BackgroundColor="Red"
+                        Aspect="Fill"
+                        HeightRequest="100"></Image>
+            </Grid>
+            <StackLayout VerticalOptions="FillAndExpand" Margin="0">
+                <StackLayout HeightRequest="40">
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Frame HorizontalOptions="FillAndExpand" Margin="0" Padding="2" CornerRadius="40" BackgroundColor="#6D1313">
+                        <Entry x:Name="KeyboardEntry" HorizontalOptions="FillAndExpand" Placeholder="keyboard" PlaceholderColor="Gray" TextColor="White">
+
+                        </Entry>
+                    </Frame>
+                    <Button x:Name="SendTxt" Clicked="SendTxt_Clicked" Text="=>" WidthRequest="60" Margin="0,0" Padding="0" HorizontalOptions="End" CornerRadius="80" BackgroundColor="White">
+                    </Button>
+
+                </StackLayout>
+                <Button x:Name="BackSpce" Clicked="BackSpce_Clicked" Text="backspace" CornerRadius="20">
+
+                </Button>
+
+                <Button x:Name="Enter" Clicked="Enter_Clicked" Text="Return(ok)" CornerRadius="20">
+
+                </Button>
+                
+                <Frame VerticalOptions="FillAndExpand" BackgroundColor="DarkRed" CornerRadius="20" Margin="0,5">
+                    <StackLayout VerticalOptions="FillAndExpand">
+                        <Label TextColor="White" Margin="10" HorizontalOptions="Center" FontSize="Large" Text="Volume"></Label>
+                        <StackLayout VerticalOptions="Fill" Orientation="Horizontal">
+
+                            <Button Clicked="VolUp_Clicked" x:Name="VolUp" Text="+" HorizontalOptions="CenterAndExpand" CornerRadius="30" BackgroundColor="White">
+
+                            </Button>
+                            <Button Clicked="Mute_Clicked" x:Name="Mute" Text="x" HorizontalOptions="CenterAndExpand" CornerRadius="40" BackgroundColor="White">
+
+                            </Button>
+                            <Button Clicked="VolDown_Clicked" x:Name="VolDown" Text=" - " HorizontalOptions="CenterAndExpand" CornerRadius="40" BackgroundColor="White">
+
+                            </Button>
+                        </StackLayout>
+                    </StackLayout>
+
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

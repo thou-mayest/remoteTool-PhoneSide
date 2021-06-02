@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title=""
+             x:Class="mouseMovDes.optionsPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="logo_drag"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#202841">
+            <Image Source="navbar"></Image>
+            <Frame Padding="10" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="40" BackgroundColor="#6D1313">
+                <Entry x:Name="ipEntry" Placeholder="198.168.1.1" BackgroundColor="Transparent" PlaceholderColor="White" WidthRequest="200" HorizontalTextAlignment="Center">
+                    
+                </Entry>
+            </Frame>
+
+            <Button Margin="15" HorizontalOptions="End" CornerRadius="60" BackgroundColor="#6D1313" Text="SAVE" MinimumHeightRequest="20" TextColor="White" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

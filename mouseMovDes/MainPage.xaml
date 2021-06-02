@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title=""
+             x:Class="mouseMovDes.MainPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="logo_drag"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <StackLayout BackgroundColor="#202841">
+        <Grid>
+            <Image  Source="navbar" BackgroundColor="Red"
+                        Aspect="Fill"
+                        HeightRequest="100"></Image>
+        </Grid>
+
+        <!-- Place new controls here -->
+       
+        <Frame Margin="10" BackgroundColor="White" CornerRadius="40" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <Image Source="logo_drag1" HorizontalOptions="Center" VerticalOptions="Center">
+                
+            </Image>
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"> </TapGestureRecognizer>
+                <PanGestureRecognizer PanUpdated="PanGestureRecognizer_PanUpdated"></PanGestureRecognizer>
+            </Frame.GestureRecognizers>
+        </Frame>
+        <!--<Label x:Name="DebugLabel" Text="_"></Label>-->
+        <StackLayout VerticalOptions="Center" Orientation="Horizontal">
+            <Button Text="Click and Hold" TextColor="DarkRed" Margin="5,10" CornerRadius="40" HorizontalOptions="CenterAndExpand" WidthRequest="160" Clicked="Button_Hold"></Button>
+            <Button Text="Right Click" TextColor="DarkRed" Margin="5,10" CornerRadius="40" HorizontalOptions="CenterAndExpand" WidthRequest="160" Clicked="Button_RightClick"></Button>
+            
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
