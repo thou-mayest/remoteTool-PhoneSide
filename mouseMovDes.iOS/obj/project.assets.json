@@ -1011,11 +1011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes.iOS\\mouseMovDes.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes.iOS\\mouseMovDes.iOS.csproj",
       "projectName": "mouseMovDes.iOS",
-      "projectPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes.iOS\\mouseMovDes.iOS.csproj",
+      "projectPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes.iOS\\mouseMovDes.iOS.csproj",
       "packagesPath": "C:\\Users\\brahmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes.iOS\\obj\\",
+      "outputPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1036,8 +1036,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes\\mouseMovDes.csproj": {
-              "projectPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes\\mouseMovDes.csproj"
+            "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes\\mouseMovDes.csproj": {
+              "projectPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes\\mouseMovDes.csproj"
             }
           }
         }

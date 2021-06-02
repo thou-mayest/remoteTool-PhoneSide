@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes.Android\\mouseMovDes.Android.csproj": {}
+    "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes.Android\\mouseMovDes.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes.Android\\mouseMovDes.Android.csproj": {
+    "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes.Android\\mouseMovDes.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes.Android\\mouseMovDes.Android.csproj",
+        "projectUniqueName": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes.Android\\mouseMovDes.Android.csproj",
         "projectName": "mouseMovDes.Android",
-        "projectPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes.Android\\mouseMovDes.Android.csproj",
+        "projectPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes.Android\\mouseMovDes.Android.csproj",
         "packagesPath": "C:\\Users\\brahmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes.Android\\obj\\",
+        "outputPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes\\mouseMovDes.csproj": {
-                "projectPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes\\mouseMovDes.csproj"
+              "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes\\mouseMovDes.csproj": {
+                "projectPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes\\mouseMovDes.csproj"
               }
             }
           }
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes\\mouseMovDes.csproj": {
+    "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes\\mouseMovDes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes\\mouseMovDes.csproj",
+        "projectUniqueName": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes\\mouseMovDes.csproj",
         "projectName": "mouseMovDes",
-        "projectPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes\\mouseMovDes.csproj",
+        "projectPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes\\mouseMovDes.csproj",
         "packagesPath": "C:\\Users\\brahmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\mouseMovDes\\obj\\",
+        "outputPath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

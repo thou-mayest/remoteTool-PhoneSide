@@ -29,7 +29,7 @@
 
                         </Entry>
                     </Frame>
-                    <Button x:Name="SendTxt" Clicked="SendTxt_Clicked" Text="=>" WidthRequest="60" Margin="0,0" Padding="0" HorizontalOptions="End" CornerRadius="80" BackgroundColor="White">
+                    <Button x:Name="SendTxt" Clicked="SendTxt_Clicked" ImageSource="msg_send_32px.png" WidthRequest="60" Margin="0,0" Padding="0" HorizontalOptions="End" CornerRadius="80" BackgroundColor="Transparent">
                     </Button>
 
                 </StackLayout>
@@ -44,17 +44,41 @@
                 <Frame VerticalOptions="FillAndExpand" BackgroundColor="DarkRed" CornerRadius="20" Margin="0,5">
                     <StackLayout VerticalOptions="FillAndExpand">
                         <Label TextColor="White" Margin="10" HorizontalOptions="Center" FontSize="Large" Text="Volume"></Label>
-                        <StackLayout VerticalOptions="Fill" Orientation="Horizontal">
+                        <StackLayout VerticalOptions="Fill" Orientation="Horizontal" BackgroundColor="Transparent" >
 
-                            <Button Clicked="VolUp_Clicked" x:Name="VolUp" Text="+" HorizontalOptions="CenterAndExpand" CornerRadius="30" BackgroundColor="White">
+                            <Frame Padding="-10" Margin="0,30" HorizontalOptions="CenterAndExpand" CornerRadius="80" BackgroundColor="#202841">
+                                <Grid>
+                                    <Image Source="plus_circle.png" HorizontalOptions="CenterAndExpand">
 
-                            </Button>
-                            <Button Clicked="Mute_Clicked" x:Name="Mute" Text="x" HorizontalOptions="CenterAndExpand" CornerRadius="40" BackgroundColor="White">
+                                    </Image>
+                                    <Button Clicked="VolUp_Clicked" x:Name="VolUp" BackgroundColor="Transparent">
+                                    </Button>
+                                </Grid>
+                            </Frame>
+                            <Frame Padding="0" Margin="5,30" HorizontalOptions="CenterAndExpand" CornerRadius="30" BackgroundColor="#202841">
+                                <Grid>
+                                    <Image Source="multiply_nob.png" HorizontalOptions="CenterAndExpand">
 
-                            </Button>
-                            <Button Clicked="VolDown_Clicked" x:Name="VolDown" Text=" - " HorizontalOptions="CenterAndExpand" CornerRadius="40" BackgroundColor="White">
+                                    </Image>
+                                    <Button Clicked="Mute_Clicked" x:Name="Mute" BackgroundColor="Transparent">
+                                    </Button>
+                                </Grid>
+                            </Frame>
+                            <Frame Padding="0" Margin="0,30" HorizontalOptions="CenterAndExpand" CornerRadius="80" BackgroundColor="#202841">
+                                <Grid>
+                                    
+                                    <Image Source="minus_circle.png" HorizontalOptions="CenterAndExpand">
 
-                            </Button>
+                                    </Image>
+                                    <Button Clicked="VolDown_Clicked" x:Name="VolDown" BackgroundColor="Transparent">
+                                    </Button>
+                                   
+                                </Grid>
+                            </Frame>
+
+
+
+
                         </StackLayout>
                     </StackLayout>
 

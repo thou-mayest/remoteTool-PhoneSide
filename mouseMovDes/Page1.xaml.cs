@@ -30,7 +30,7 @@ namespace mouseMovDes
             {
                 ip = new IPEndPoint(IPAddress.Parse(Preferences.Get("ip", "default val")), 1997); // THIS SHOULD BE FIGURED OUT 
             }
-            catch (Exception x)
+            catch (Exception)
             {
 
                 DisplayAlert("Error", "invalid ip adress specified please check options page", "Ok");
