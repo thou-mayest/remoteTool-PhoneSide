@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "LJ/Olmp+2bKIYvs0Ng/i86/wlY9ggsquctU6nAlWrgP0Yv7F6IRmPjJKFzuE/1AGLzmk2LuV4aQAT9qS9yPsjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes\\mouseMovDes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\brahmi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\brahmi\\.nuget\\packages\\xamarin.essentials\\1.2.0\\xamarin.essentials.1.2.0.nupkg.sha512",
+    "C:\\Users\\brahmi\\.nuget\\packages\\xamarin.forms\\4.2.0.709249\\xamarin.forms.4.2.0.709249.nupkg.sha512"
+  ],
+  "logs": []
+}

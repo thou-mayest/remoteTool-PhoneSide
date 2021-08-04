@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "3VZMaVDT46/IY1YGRv4DHcRhedGDpYQhHE9Hxk4oms5r4ClkXQm0nUPeB11FrHNVJW2mu3sLO3rcVm5Ytzz8UA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\brahmi\\source\\repos\\mouseMovDes\\RemTool-PhoneSide\\remoteTool-PhoneSide\\mouseMovDes.iOS\\mouseMovDes.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brahmi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\brahmi\\.nuget\\packages\\xamarin.essentials\\1.2.0\\xamarin.essentials.1.2.0.nupkg.sha512",
+    "C:\\Users\\brahmi\\.nuget\\packages\\xamarin.forms\\4.2.0.709249\\xamarin.forms.4.2.0.709249.nupkg.sha512"
+  ],
+  "logs": []
+}
