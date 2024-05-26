@@ -1,2 +1,2 @@
 # remoteTool-PhoneSide
-phone side: xross platform on xamarin
+phone side: cross platform on xamarin
